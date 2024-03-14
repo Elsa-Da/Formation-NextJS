@@ -1,6 +1,6 @@
-import { UsersPageProps } from "@/app/lib/types";
+import { PageProps } from "@/app/lib/types";
 
-const User = ({ params: { id } }: UsersPageProps) => {
+const User = ({ params: { id } }: PageProps) => {
   return <h1>User {id}</h1>;
 };
 
